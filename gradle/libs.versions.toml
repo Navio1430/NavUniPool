@@ -1,0 +1,10 @@
+[versions]
+# plugins
+shadow = "9.2.0"
+blossom = "1.2.0"
+spotless = "8.0.0"
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+blossom = { id = "net.kyori.blossom", version.ref = "blossom" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
