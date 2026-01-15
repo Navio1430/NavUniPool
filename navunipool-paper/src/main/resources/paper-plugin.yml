@@ -1,0 +1,6 @@
+#file: noinspection PluginYml,YAMLSchemaValidation
+name : NavUniPool
+version : ${version}
+main : ${group}.paper.NavUniPool
+description : Plugin for managing database connection pools
+api-version : ${apiVersion}

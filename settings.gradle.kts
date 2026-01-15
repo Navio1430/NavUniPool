@@ -1,4 +1,5 @@
 rootProject.name = "navunipool"
 
 include("navunipool-common")
-include("navunipool-velocity")
+include("navunipool-paper")
+include("navunipool-api")

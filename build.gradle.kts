@@ -25,6 +25,10 @@ subprojects {
   repositories {
     mavenCentral()
     maven("https://storehouse.okaeri.eu/repository/maven-public/")
+    maven {
+      name = "papermc"
+      url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
   }
 
   apply {
